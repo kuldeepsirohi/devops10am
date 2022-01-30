@@ -8,4 +8,7 @@ spec:
   image:  nginx:latest
   labels:
        app: nginx
+  ClusterIP: none
+  
+  
        
