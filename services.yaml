@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+    name: mybestservice
+    labels:
+        app: nginx
+spec:
+  image:  nginx:latest
+  labels:
+       app: nginx
+       
